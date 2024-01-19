@@ -15,10 +15,10 @@ get_header(); ?>
 		  ?>
 	  </header><!-- .page-header -->
     <?php
+    // Start the Loop.
     if ( have_posts() ) :
-
       while ( have_posts() ) :
-
+        // Prikazivanje informacija o trenutnom postu
         the_post();
         ?>
 
